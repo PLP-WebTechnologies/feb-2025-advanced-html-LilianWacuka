@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML images, list, table, input field</title>
+</head>
+<body>
+    <h1>Asssignment:</h1>
+   <h1>Ordered list:</h1>
+   <h2>Structure of programming languages:</h2>
+   <ol type="i">
+    <li>Back-end programming languages</li>
+    <li>Front-end programming languages</li>
+    <li>Full-stack programming languages</li>
+   </ol> 
+   <h1>Image</h1>
+   <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image of a developer" width="300" height="200">
+    <h1>Table</h1>
+    <table border="2">
+    <tr>
+        <th>Name</th>
+        <th>Adress</th>
+        <th>Mobile</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Lilian Nguru</td>
+        <td>604,Wangige</td>
+        <td>070000001</td>
+        <td>liliannguru@gmail.com</td>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>6078, Kisumu</td>
+        <td>070000002</td>
+        <td>john@gmail.com</td>
+    </tr>
+    <tr>
+        <td>James King</td>
+        <td>60890,Nigeria</td>
+        <td>234-700098003</td>
+        <td>king@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Masika Mercy</td>
+        <td>606,Rwanda</td>
+        <td>700000078</td>
+        <td>masika@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Rebecca Violet</td>
+        <td>622, Kenya</td>
+        <td>070000003</td>
+        <td>violet@gmail.com</td>
+    </tr>         
+    </table>
+    <!--Registration form-->
+    <h1>Registration Form</h1>
+    <form action="/submit" method="get">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" value="" required><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value="" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" value="" placeholder="Enter your password" required minlength="8">
+        <br><br>
+        <label for="date of birth"> DOB:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="Country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+        </select><br><br>
+
+       <!-- inputing radio buttons -->
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" id="gender" name="gender" value="male" required>Male
+        <label for="Gender"></label><br>
+        <input type="radio" id="gender" name="gender" value="female" required>Female<br>
+        
+<!-- inputing checkboxes -->
+        <label for="sports">Sports:</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label><br>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="travelling" name="interests" value="travelling">
+                <label for="travelling">Travelling</label><br>
+
+       
+    </form>
+
+</body>
+</html>
